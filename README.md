@@ -5,7 +5,9 @@
 # Install :-
 
 git clone https://github.com/Hanysabeh/YAS-pedistrain-camera.git
+
 cd YAS-pedistrain-camera
+
 pip install -r requirements.txt
 
 put any video for Zebra crossing road in the config folder 
