@@ -20,7 +20,7 @@ chmod +x $DOWNLOAD_DIR/YAS-pedistrain-camera/install.sh
 # Create a desktop shortcut (optional)
 cat <<EOF > ~/.local/share/applications/your_application.desktop
 [Desktop Entry]
-Name=Your Application
+Name=YAS-pedistrain-camera
 Exec=$DOWNLOAD_DIR/YAS-pedistrain-camera/install.sh
 Icon=$DOWNLOAD_DIR/icon.png
 Terminal=false
