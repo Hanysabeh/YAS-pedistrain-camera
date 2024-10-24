@@ -1,0 +1,32 @@
+{
+    "fps": 50,
+    "tracker": "config/tracker.txt",
+    "logging": "config/action.log",
+    "model": "config/yolov10n.onnx",
+    "labels": "config/coco.names",
+    "stream": "config/Violation.mkv",
+    "out_images": "outputs/dangerImg",
+    "out_videos": "outputs/dangerRec",
+    "signals": [
+        [
+            78,
+            153
+        ],
+        [
+            390,
+            132
+        ],
+        [
+            465,
+            184
+        ],
+        [
+            136,
+            222
+        ]
+    ],
+    "ratio_xy": [
+        1.14,
+        2.03
+    ]
+}

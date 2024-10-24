@@ -1,0 +1,9 @@
+numpy 
+opencv-python 
+onnxruntime 
+onnx 
+ultralytics
+cProfile
+
+
+
