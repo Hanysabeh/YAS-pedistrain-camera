@@ -28,15 +28,13 @@ EOF
 
 echo "Installation complete!"
 
+# chmod +x ped.sh
+# sudo ./ped.sh
 
 
-chmod +x ped.sh
-sudo ./ped.sh
+# tar -czf my_app.tar.gz /path/to/your/app/files /path/to/your/config.json install.sh
+# wget https://example.com/my_app.tar.gz && tar -xzf my_app.tar.gz && sudo ./install.sh
 
 
-tar -czf my_app.tar.gz /path/to/your/app/files /path/to/your/config.json install.sh
-wget https://example.com/my_app.tar.gz && tar -xzf my_app.tar.gz && sudo ./install.sh
-
-
-cd /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/
-tar -czf package.tar.gz /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/ /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/config.json /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/install.sh
+# cd /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/
+# tar -czf package.tar.gz /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/ /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/config.json /home/hany/Desktop/Work/Finished/Deployment/ped/ped/pedstrain_service/install.sh
